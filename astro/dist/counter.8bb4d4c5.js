@@ -1,0 +1,1 @@
+import{c as i,o as c,g as u,a as g,i as m,t as p}from"./chunks/web.ffdcb5a8.js";const v=p('<div class="text-red-500">Count value is <!#><!/></div>'),C=()=>{const[e,n]=i(0),a=setInterval(()=>n(t=>t+1),1e3);return c(()=>clearInterval(a)),(()=>{const t=u(v),l=t.firstChild,s=l.nextSibling,[o,r]=g(s.nextSibling);return m(t,e,o,r),t})()};export{C as CountingComponent};
