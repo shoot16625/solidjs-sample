@@ -3,6 +3,7 @@ import { render } from "solid-js/web";
 
 import { Header } from "./header";
 import { FibonacciComponent } from "./fibonacci";
+import { RepeatingComponent } from "./repeat";
 import "./index.css";
 
 // 1秒ごとにカウントするコンポーネント
@@ -19,6 +20,7 @@ const App = () => {
       <Header />
       <CountingComponent />
       <FibonacciComponent />
+      <RepeatingComponent />
     </>
   );
 };
