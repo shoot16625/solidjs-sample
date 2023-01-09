@@ -1,4 +1,4 @@
-# サンプルコード
+# # SolidJS With Vite
 
 ```zsh
 # setup node
@@ -30,6 +30,9 @@ pnpm add -D tailwindcss postcss autoprefixer
 pnpm tailwindcss init
 ```
 
-## 関連
+## 参考
 
+- https://www.solidjs.com/
+- https://ja.vitejs.dev/guide/why.html
 - https://blog.hey3.dev/posts/create-solidjs-template
+- https://tailwindcss.com/

@@ -1,4 +1,4 @@
-# サンプルコード
+# SolidJS With Astro
 
 ```zsh
 # setup node
@@ -14,8 +14,17 @@ pnpm config list
 # create project
 pnpm create astro@latest
 pnpm astro add solid tailwind
+
+# run app
+pnpm dev
+
+# build app
+pnpm build
 ```
 
-## 関連
+## 参考
 
-- https://blog.hey3.dev/posts/create-solidjs-template
+- https://docs.astro.build/ja/concepts/why-astro/
+- https://qiita.com/tronicboy/items/4c10f98a60d4c4f0044c
+- https://reffect.co.jp/html/astro
+- https://zenn.dev/shotam/articles/ce1274b82de177
